@@ -1,5 +1,5 @@
 {
-  "name": "diff-step",
+  "name": "@dwidge/diff-step",
   "version": "1.0.0",
   "description": "A function that steps through the differences between two strings character by character.",
   "main": "src/index.js",
