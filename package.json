@@ -2,9 +2,10 @@
   "name": "diff-step",
   "version": "1.0.0",
   "description": "A function that steps through the differences between two strings character by character.",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
-    "index.js",
+    "src",
+    "LICENSE",
     "README.md"
   ],
   "scripts": {
