@@ -6,14 +6,14 @@ A function that steps through the differences between two strings character by c
 
 To install the step function, run the following command:
 
-`npm install diff-step`
+`npm install @dwidge/diff-step`
 
 ## Usage
 
 To use the step function, require it in your code and call it with two strings and an index:
 
 ```js
-const { step } = require("diff-step");
+const { step } = require("@dwidge/diff-step");
 
 const a = "aaaaaa";
 const b = "aaabbbaaa";
@@ -34,7 +34,7 @@ console.log(step(b, a, 4)); // 'aaaaaa'
 To use the count function, require it in your code and call it with two strings:
 
 ```js
-const { count } = require("diff-step");
+const { count } = require("@dwidge/diff-step");
 
 console.log(count("aaaaaa", "aaabbbaaa")); // 3
 console.log(count("the quick brown fox", "the slow brown fox")); // 9
